@@ -1,0 +1,26 @@
+#### ENDPOINT PRUEBA
+GET http://localhost:3000/ping/3
+
+#### ENDPOINT LISTAR PRODUCTOS
+GET http://localhost:3000/products
+
+### product byId
+GET http://localhost:3000/products/5
+
+### create a product 
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{  
+  "nombre": "Smartphone X Pro Max",
+  "descripcion": "Último modelo de smartphone con cámara de alta resolución 4Ks y batería de larga duración.",
+  "codigo": 123456789,
+  "precioVenta": 999.99,
+  "precioCompra": 750.00,
+  "stock": 80,
+  "unidadMedida": "unidad",
+  "categoria": "Electrónica",
+  "activo": true,
+  "createdAt": "2023-10-26T10:30:00.000Z",  
+  "updatedAt": "2023-10-26T10:30:00.000Z"   
+}  
